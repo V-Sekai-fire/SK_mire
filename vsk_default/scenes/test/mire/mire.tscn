@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://ctjiq2pkr3xne"]
+
+[ext_resource type="PackedScene" uid="uid://riuot5d08k0n" path="res://vsk_default/scenes/test/mire/SK_mire.blend" id="1_03k1i"]
+
+[node name="SK_mire" instance=ExtResource("1_03k1i")]
+
+[node name="BodyLP" parent="Armature/Skeleton3D" index="18"]
+visible = false
+
+[node name="MireMsBodyLP" parent="." index="2"]
+visible = false

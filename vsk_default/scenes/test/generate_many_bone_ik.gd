@@ -119,6 +119,7 @@ func _run():
 	new_ik.owner = root
 	new_ik.iterations_per_frame = 15
 	new_ik.queue_print_skeleton()
+	new_ik.default_damp = 1
 #	new_ik.constraint_mode = true
 	skeleton.reset_bone_poses()
 	var humanoid_profile: SkeletonProfileHumanoid = SkeletonProfileHumanoid.new()
